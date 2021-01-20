@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+
+
+<body>
+
+    <div class="title2">
+
+        Tic_Tac_Toe__By:_Lucas
+
+    </div>
+
+
+
+    <form>
+
+        <div class="botton">
+
+            <input class="botton" type="reset" value="Reset" onclick="history.go(0)">
+
+        </div>
+
+    </form>
+
+    <div class="game"></div>
+
+    <script src="/js/tic-tac-toe.js"></script>
+
+    <script>
+
+        tic_tac_toe.init(document.querySelector('.game'));
+        tic_tac_toe.start()
+
+
+    </script>
+
+</body>
+
+</html>
